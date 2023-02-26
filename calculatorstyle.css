@@ -1,0 +1,40 @@
+.container{
+    text-align: center;
+    margin-top:23px
+}
+/* This block of code defines styles for the container class. It sets the text alignment to center and adds a margin of 23 pixels at the top.*/
+table{
+    margin: auto;
+}
+/* This block of code defines styles for the table element. It sets the margin to auto, which centers the table horizontally within its container. */
+input{
+    border-radius: 21px;
+    border: 5px solid #244624;
+    font-size:34px;
+    height: 65px;
+    width: 456px;
+}
+/* This block of code defines styles for the input element. It sets the border radius to 21 pixels, adds a 5 pixel solid border with a dark green color, sets the font size to 34 pixels, and sets the height and width of the input field. */
+button{
+    border-radius: 20px;
+    font-size: 40px;
+    background: #978fa0;
+    width: 102px;
+    height: 90px;
+    margin: 6px;
+}
+/* This block of code defines styles for the button element. It sets the border radius to 20 pixels, sets the font size to 40 pixels, sets the background color to a light purple, sets the width and height of the button, and adds a margin of 6 pixels around the button. */
+.calculator{ 
+    border: 4px solid #13695d;
+    background-color: rgba(red, green, blue, alpha);
+    padding: 23px;
+    border-radius: 53px;
+    display: inline-block;
+    
+}
+/* This block of code defines styles for the calculator class. It sets the border to a 4 pixel solid line with a dark green color, sets the background color to a light pink, adds padding of 23 pixels, sets the border radius to 53 pixels, and sets the display property to inline-block. */
+h1{
+    font-size: 28px;
+    font-family: 'Courier New', Courier, monospace;
+}
+/* This block of code defines styles for the h1 element. It sets the font size to 28 pixels and sets the font family to Courier New or Courier, with a fallback to a generic monospace font family. */

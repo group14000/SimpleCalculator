@@ -1,0 +1,69 @@
+<!-- This is an HTML document for a calculator webpage -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Set the character encoding and viewport for the webpage -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Set the compatibility of the webpage with different browsers -->
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<!-- Link to an external stylesheet to style the webpage -->
+<link rel="stylesheet" href="calculatorstyle.css">
+
+<!-- Set the title of the webpage -->
+<title>Calculator</title>
+</head>
+<body>
+    <!-- Create a container to hold the calculator -->
+    <div class="container">
+          <!-- Create a heading for the calculator -->
+    <h1>Calculator By Diganta Halder</h1>
+
+    <!-- Create the calculator with a text input and a table of buttons -->
+    <div class="calculator">
+        <input type="text" name="screen" id="screen">
+        <table>
+            <tr>
+                <!-- Create buttons for opening and closing parentheses, clearing the screen, and taking a percentage -->
+                <td><button>(</button></td>
+                <td><button>)</button></td>
+                <td><button>C</button></td>
+                <td><button>%</button></td>
+            </tr>
+            <tr>
+                <!-- Create buttons for the numbers 7, 8, 9, and multiplication -->
+                <td><button>7</button></td>
+                <td><button>8</button></td>
+                <td><button>9</button></td>
+                <td><button>X</button></td>
+            </tr>
+            <tr>
+                <!-- Create buttons for the numbers 4, 5, 6, and subtraction -->
+                <td><button>4</button></td>
+                <td><button>5</button></td>
+                <td><button>6</button></td>
+                <td><button>-</button></td>
+            </tr>
+            <tr>
+                <!-- Create buttons for the numbers 1, 2, 3, and addition -->
+                <td><button>1</button></td>
+                <td><button>2</button></td>
+                <td><button>3</button></td>
+                <td><button>+</button></td>
+            </tr>
+            <tr>
+                <!-- Create buttons for the number 0, decimal point, division, and equals -->
+                <td><button>0</button></td>
+                <td><button>.</button></td>
+                <td><button>/</button></td>
+                <td><button>=</button></td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<!-- Link to an external JavaScript file to add functionality to the calculator -->
+<script src="calculator.js"></script>
+      </body>
+</html>
