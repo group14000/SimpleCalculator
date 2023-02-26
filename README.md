@@ -1,5 +1,6 @@
 # SimpleCalculator
 Calculator Webpage Readme
+
 HTML:
 This is an HTML document for a calculator webpage. The document contains the necessary HTML elements to create a basic calculator with buttons for arithmetic operations and functions.
 
